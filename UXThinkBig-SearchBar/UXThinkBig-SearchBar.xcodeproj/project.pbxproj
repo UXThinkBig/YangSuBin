@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B35B717272A89B900D3DC84 /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B35B716272A89B900D3DC84 /* CustomTVC.swift */; };
 		2BFAB452271DF42C000A7AC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFAB451271DF42C000A7AC6 /* AppDelegate.swift */; };
 		2BFAB454271DF42C000A7AC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFAB453271DF42C000A7AC6 /* SceneDelegate.swift */; };
 		2BFAB456271DF42C000A7AC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFAB455271DF42C000A7AC6 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		037B90065538E6239A58421A /* Pods_UXThinkBig_SearchBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UXThinkBig_SearchBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B1A592E6F84184D4115533 /* Pods-UXThinkBig-SearchBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXThinkBig-SearchBar.debug.xcconfig"; path = "Target Support Files/Pods-UXThinkBig-SearchBar/Pods-UXThinkBig-SearchBar.debug.xcconfig"; sourceTree = "<group>"; };
+		2B35B716272A89B900D3DC84 /* CustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
 		2B5D16ED2726DA16007D4A27 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BFAB44E271DF42C000A7AC6 /* UXThinkBig-SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UXThinkBig-SearchBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFAB451271DF42C000A7AC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		2B5D16EA2726D934007D4A27 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				2B35B716272A89B900D3DC84 /* CustomTVC.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				2BFAB456271DF42C000A7AC6 /* ViewController.swift in Sources */,
 				2BFAB452271DF42C000A7AC6 /* AppDelegate.swift in Sources */,
+				2B35B717272A89B900D3DC84 /* CustomTVC.swift in Sources */,
 				2BFAB454271DF42C000A7AC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +410,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6L372B2RJ6;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "UXThinkBig-SearchBar/Resource/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -435,7 +439,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6L372B2RJ6;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "UXThinkBig-SearchBar/Resource/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
