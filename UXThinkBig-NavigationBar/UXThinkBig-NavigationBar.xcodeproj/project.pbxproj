@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B35B725272A8CE800D3DC84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B35B724272A8CE800D3DC84 /* AppDelegate.swift */; };
+		2B35B727272A8CE800D3DC84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B35B726272A8CE800D3DC84 /* SceneDelegate.swift */; };
+		2B35B729272A8CE800D3DC84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B35B728272A8CE800D3DC84 /* ViewController.swift */; };
+		2B35B72C272A8CE800D3DC84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B35B72A272A8CE800D3DC84 /* Main.storyboard */; };
+		2B35B72E272A8CE900D3DC84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B35B72D272A8CE900D3DC84 /* Assets.xcassets */; };
+		2B35B731272A8CE900D3DC84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B35B72F272A8CE900D3DC84 /* LaunchScreen.storyboard */; };
+		4D4917A33E5F33413A3A1C5D /* Pods_UXThinkBig_NavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2894F2AE5B9DD13375C0BC /* Pods_UXThinkBig_NavigationBar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D4A3939B8854055C71D2163 /* Pods-UXThinkBig-NavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXThinkBig-NavigationBar.release.xcconfig"; path = "Target Support Files/Pods-UXThinkBig-NavigationBar/Pods-UXThinkBig-NavigationBar.release.xcconfig"; sourceTree = "<group>"; };
+		2B35B721272A8CE800D3DC84 /* UXThinkBig-NavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UXThinkBig-NavigationBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B35B724272A8CE800D3DC84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B35B726272A8CE800D3DC84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B35B728272A8CE800D3DC84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B35B72B272A8CE800D3DC84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B35B72D272A8CE900D3DC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B35B730272A8CE900D3DC84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B35B732272A8CE900D3DC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DEB5BF97EACB00BA14D7E53 /* Pods-UXThinkBig-NavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXThinkBig-NavigationBar.debug.xcconfig"; path = "Target Support Files/Pods-UXThinkBig-NavigationBar/Pods-UXThinkBig-NavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2894F2AE5B9DD13375C0BC /* Pods_UXThinkBig_NavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UXThinkBig_NavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B35B71E272A8CE800D3DC84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4917A33E5F33413A3A1C5D /* Pods_UXThinkBig_NavigationBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B35B718272A8CE800D3DC84 = {
+			isa = PBXGroup;
+			children = (
+				2B35B723272A8CE800D3DC84 /* UXThinkBig-NavigationBar */,
+				2B35B722272A8CE800D3DC84 /* Products */,
+				BBBEF12EC2A237EF3E9CE321 /* Pods */,
+				6D691F479EE2FD116CDF6507 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B35B722272A8CE800D3DC84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B35B721272A8CE800D3DC84 /* UXThinkBig-NavigationBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B35B723272A8CE800D3DC84 /* UXThinkBig-NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				2B35B739272A8D1C00D3DC84 /* Source */,
+				2B35B738272A8D1400D3DC84 /* Resource */,
+				2B35B72D272A8CE900D3DC84 /* Assets.xcassets */,
+				2B35B732272A8CE900D3DC84 /* Info.plist */,
+			);
+			path = "UXThinkBig-NavigationBar";
+			sourceTree = "<group>";
+		};
+		2B35B738272A8D1400D3DC84 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2B35B73A272A8D3400D3DC84 /* Storyboards */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2B35B739272A8D1C00D3DC84 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2B35B73D272A8D4E00D3DC84 /* Cells */,
+				2B35B73C272A8D4600D3DC84 /* ViewControllers */,
+				2B35B73B272A8D3D00D3DC84 /* Supports */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2B35B73A272A8D3400D3DC84 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2B35B72A272A8CE800D3DC84 /* Main.storyboard */,
+				2B35B72F272A8CE900D3DC84 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2B35B73B272A8D3D00D3DC84 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				2B35B724272A8CE800D3DC84 /* AppDelegate.swift */,
+				2B35B726272A8CE800D3DC84 /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		2B35B73C272A8D4600D3DC84 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B35B728272A8CE800D3DC84 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2B35B73D272A8D4E00D3DC84 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6D691F479EE2FD116CDF6507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF2894F2AE5B9DD13375C0BC /* Pods_UXThinkBig_NavigationBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBBEF12EC2A237EF3E9CE321 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DEB5BF97EACB00BA14D7E53 /* Pods-UXThinkBig-NavigationBar.debug.xcconfig */,
+				0D4A3939B8854055C71D2163 /* Pods-UXThinkBig-NavigationBar.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B35B720272A8CE800D3DC84 /* UXThinkBig-NavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B35B735272A8CE900D3DC84 /* Build configuration list for PBXNativeTarget "UXThinkBig-NavigationBar" */;
+			buildPhases = (
+				79D7500D3C8BA229057A1F0E /* [CP] Check Pods Manifest.lock */,
+				2B35B71D272A8CE800D3DC84 /* Sources */,
+				2B35B71E272A8CE800D3DC84 /* Frameworks */,
+				2B35B71F272A8CE800D3DC84 /* Resources */,
+				3254403F770F6EF31AF77251 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UXThinkBig-NavigationBar";
+			productName = "UXThinkBig-NavigationBar";
+			productReference = 2B35B721272A8CE800D3DC84 /* UXThinkBig-NavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B35B719272A8CE800D3DC84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					2B35B720272A8CE800D3DC84 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 2B35B71C272A8CE800D3DC84 /* Build configuration list for PBXProject "UXThinkBig-NavigationBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B35B718272A8CE800D3DC84;
+			productRefGroup = 2B35B722272A8CE800D3DC84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B35B720272A8CE800D3DC84 /* UXThinkBig-NavigationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B35B71F272A8CE800D3DC84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B35B731272A8CE900D3DC84 /* LaunchScreen.storyboard in Resources */,
+				2B35B72E272A8CE900D3DC84 /* Assets.xcassets in Resources */,
+				2B35B72C272A8CE800D3DC84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3254403F770F6EF31AF77251 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UXThinkBig-NavigationBar/Pods-UXThinkBig-NavigationBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UXThinkBig-NavigationBar/Pods-UXThinkBig-NavigationBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UXThinkBig-NavigationBar/Pods-UXThinkBig-NavigationBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D7500D3C8BA229057A1F0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UXThinkBig-NavigationBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B35B71D272A8CE800D3DC84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B35B729272A8CE800D3DC84 /* ViewController.swift in Sources */,
+				2B35B725272A8CE800D3DC84 /* AppDelegate.swift in Sources */,
+				2B35B727272A8CE800D3DC84 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B35B72A272A8CE800D3DC84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B35B72B272A8CE800D3DC84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B35B72F272A8CE900D3DC84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B35B730272A8CE900D3DC84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B35B733272A8CE900D3DC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B35B734272A8CE900D3DC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B35B736272A8CE900D3DC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEB5BF97EACB00BA14D7E53 /* Pods-UXThinkBig-NavigationBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UXThinkBig-NavigationBar/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "subin.UXThinkBig-NavigationBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B35B737272A8CE900D3DC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4A3939B8854055C71D2163 /* Pods-UXThinkBig-NavigationBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4QG3GC35LA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UXThinkBig-NavigationBar/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "subin.UXThinkBig-NavigationBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B35B71C272A8CE800D3DC84 /* Build configuration list for PBXProject "UXThinkBig-NavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B35B733272A8CE900D3DC84 /* Debug */,
+				2B35B734272A8CE900D3DC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B35B735272A8CE900D3DC84 /* Build configuration list for PBXNativeTarget "UXThinkBig-NavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B35B736272A8CE900D3DC84 /* Debug */,
+				2B35B737272A8CE900D3DC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B35B719272A8CE800D3DC84 /* Project object */;
+}
