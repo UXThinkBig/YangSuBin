@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1CB9E7272C56E200BB14D0 /* AppDetailTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1CB9E6272C56E200BB14D0 /* AppDetailTVC.swift */; };
 		2B35B725272A8CE800D3DC84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B35B724272A8CE800D3DC84 /* AppDelegate.swift */; };
 		2B35B727272A8CE800D3DC84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B35B726272A8CE800D3DC84 /* SceneDelegate.swift */; };
 		2B35B729272A8CE800D3DC84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B35B728272A8CE800D3DC84 /* ViewController.swift */; };
 		2B35B72C272A8CE800D3DC84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B35B72A272A8CE800D3DC84 /* Main.storyboard */; };
 		2B35B72E272A8CE900D3DC84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B35B72D272A8CE900D3DC84 /* Assets.xcassets */; };
 		2B35B731272A8CE900D3DC84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B35B72F272A8CE900D3DC84 /* LaunchScreen.storyboard */; };
+		2B35B73F272A948A00D3DC84 /* AppDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B35B73E272A948A00D3DC84 /* AppDetailVC.swift */; };
 		4D4917A33E5F33413A3A1C5D /* Pods_UXThinkBig_NavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2894F2AE5B9DD13375C0BC /* Pods_UXThinkBig_NavigationBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D4A3939B8854055C71D2163 /* Pods-UXThinkBig-NavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXThinkBig-NavigationBar.release.xcconfig"; path = "Target Support Files/Pods-UXThinkBig-NavigationBar/Pods-UXThinkBig-NavigationBar.release.xcconfig"; sourceTree = "<group>"; };
+		2B1CB9E6272C56E200BB14D0 /* AppDetailTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailTVC.swift; sourceTree = "<group>"; };
 		2B35B721272A8CE800D3DC84 /* UXThinkBig-NavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UXThinkBig-NavigationBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B35B724272A8CE800D3DC84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B35B726272A8CE800D3DC84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		2B35B72D272A8CE900D3DC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B35B730272A8CE900D3DC84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B35B732272A8CE900D3DC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B35B73E272A948A00D3DC84 /* AppDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailVC.swift; sourceTree = "<group>"; };
 		5DEB5BF97EACB00BA14D7E53 /* Pods-UXThinkBig-NavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXThinkBig-NavigationBar.debug.xcconfig"; path = "Target Support Files/Pods-UXThinkBig-NavigationBar/Pods-UXThinkBig-NavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
 		BF2894F2AE5B9DD13375C0BC /* Pods_UXThinkBig_NavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UXThinkBig_NavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				2B35B728272A8CE800D3DC84 /* ViewController.swift */,
+				2B35B73E272A948A00D3DC84 /* AppDetailVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 		2B35B73D272A8D4E00D3DC84 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				2B1CB9E6272C56E200BB14D0 /* AppDetailTVC.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -136,7 +142,6 @@
 				5DEB5BF97EACB00BA14D7E53 /* Pods-UXThinkBig-NavigationBar.debug.xcconfig */,
 				0D4A3939B8854055C71D2163 /* Pods-UXThinkBig-NavigationBar.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -256,8 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B35B729272A8CE800D3DC84 /* ViewController.swift in Sources */,
+				2B35B73F272A948A00D3DC84 /* AppDetailVC.swift in Sources */,
 				2B35B725272A8CE800D3DC84 /* AppDelegate.swift in Sources */,
 				2B35B727272A8CE800D3DC84 /* SceneDelegate.swift in Sources */,
+				2B1CB9E7272C56E200BB14D0 /* AppDetailTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
